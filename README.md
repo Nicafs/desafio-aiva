@@ -155,7 +155,7 @@ yarn test
 ## 🌐 **Production URL**
 
 The project is deployed and available at:  
-**[https://aiva-challenge.vercel.app/desafio-aiva]**  
+**[https://desafio-aiva.vercel.app]**  
 _(replace with your actual deploy URL)_
 
 ---
