@@ -77,7 +77,7 @@ src/
 ### **1. Clone the repository**
 
 ```sh
-git clone https://github.com/your-username/aiva-challenge.git
+git clone https://github.com/Nicafs/desafio-aiva
 cd aiva-challenge
 ```
 
@@ -151,7 +151,7 @@ yarn test
 
 - [Nicollas Santos]
 - [nicollas.comp@gmail.com]
-- [LinkedIn/GitHub profile]
+- [LinkedIn: https://www.linkedin.com/in/nicollas-santos-front-end / GitHub: https://github.com/Nicafs]
 
 ---
 
