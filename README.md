@@ -78,7 +78,7 @@ src/
 
 ```sh
 git clone https://github.com/Nicafs/desafio-aiva
-cd aiva-challenge
+cd desafio-aiva
 ```
 
 ### **2. Install dependencies**
@@ -89,7 +89,20 @@ npm install
 yarn
 ```
 
-### **3. Start the development server**
+### **3. Configure environment variables**
+
+Create a `.env` file based on the example below:
+
+```sh
+cp .env.example .env
+```
+
+Example `.env.example`:
+```
+VITE_API_URL=https://your-api-url.com
+```
+
+### **4. Start the development server**
 
 ```sh
 npm run dev
@@ -99,7 +112,7 @@ yarn dev
 
 The app will be available at [http://localhost:5173](http://localhost:5173) (default Vite port).
 
-### **4. Run tests**
+### **5. Run tests**
 
 ```sh
 npm test
@@ -139,6 +152,20 @@ yarn test
 
 ---
 
+## 🌐 **Production URL**
+
+The project is deployed and available at:  
+**[https://aiva-challenge.vercel.app/desafio-aiva]**  
+_(replace with your actual deploy URL)_
+
+---
+
+## ⚡ **Why Vite?**
+
+Vite was chosen for this project because it offers a lightning-fast development experience, instant hot module replacement, and optimized builds out of the box. Its simplicity and performance make it ideal for modern React + TypeScript applications, especially when compared to older tools like CRA or Webpack.
+
+---
+
 ## 📚 **Extra Notes**
 
 - All UI text is in English.
@@ -151,7 +178,7 @@ yarn test
 
 - [Nicollas Santos]
 - [nicollas.comp@gmail.com]
-- [LinkedIn: https://www.linkedin.com/in/nicollas-santos-front-end / GitHub: https://github.com/Nicafs]
+- [LinkedIn: [https://www.linkedin.com/in/nicollas-santos-front-end] / GitHub: [https://github.com/Nicafs]
 
 ---
 
